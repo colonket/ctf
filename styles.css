@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-align: center;
+    background-color: rgb(17, 0, 255);
+    background-blend-mode: color-burn;
+    color: white;
+}
+a {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+#header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /**background-image: url("img/tu-field.jpeg");**/
+    background-size:100%;
+}
+#about {
+    background-color: rgba(87, 87, 87, 0.8);
+}
+#about a {
+    background-color: rgba(0,0,0,0);
+    border-radius: 0;
+    padding: 0em;
+    font-weight: bold;
+}
+#about ol {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    text-align: left;
+    font-size:1.5em;
+}
+#about ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+#about ul li {
+    display: inline;
+    white-space: nowrap;
+}
+#about ul li a{
+    background-color: grey;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+#about ul li a:hover{
+    background-color: black;
+}
+#easy   {background-color: rgb(9, 196, 9);}
+#normal {background-color: orange;}
+#hard   {background-color: rgb(190, 0, 0);}
+#TryHackMe {background-color: #1c2538;}
+#impossible {
+    color: white;
+    background-image: url("img/fire.gif");
+    font-family:'Times New Roman', serif;
+}
+.row {
+    padding: 1em;
+}
+.logo {
+    height: 8em;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+.card {
+    background-color: rgba(7, 6, 6, 0.7);
+    width:10em;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1em;
+}
+.card a {
+    white-space: nowrap;
+}
+.desc{
+    font-weight: bold;
+    background-color: rgba(66, 66, 66, 0.7);
+    border-radius: 1em;
+    padding: 0.5em;
+}
