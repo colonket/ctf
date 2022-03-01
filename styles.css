@@ -14,6 +14,7 @@ a {
     border-radius: 1em;
 }
 #header{
+    padding-top:1em;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /**background-image: url("img/tu-field.jpeg");**/
     background-size:100%;
